@@ -5,10 +5,10 @@ generate_story <- function(noun, verb, adjective, adverb) {
     Once upon a time, there was a {adjective} {noun} who loved to
     {verb} {adverb}. It was the funniest thing ever!
   ")
-
-  ## Add logging
-  cat("This is just a logging test.\n", file = stderr())
 }
+
+## Add logging
+cat("This is just a logging test.\n", file = stderr())
 
 ui <- fluidPage(
   titlePanel("Mad Libs Game"),
